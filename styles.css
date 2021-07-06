@@ -24,16 +24,20 @@ a:hover {
     color: peachpuff;
 }
 
-h1 {
+#top-heading {
     font-size: 50px;
 }
 
-.hungry {
+.crimson {
     color: crimson;
 }
 
 .top-part {
     display: flex;
+}
+
+#top-left {
+    margin-top: 3%;
 }
 
 .half-width {
@@ -42,8 +46,9 @@ h1 {
     margin-top: 20px;
 }
 
-.details {
+.text-color {
     margin-bottom: 50px;
+    color: rgb(59, 58, 58);
 }
 
 #top-img {
@@ -51,9 +56,9 @@ h1 {
 }
 
 #mid-img {
-    width: 60%;
+    width: 40%;
     height: auto;
-    padding-left: 15%;
+    padding-left: 25%;
 }
 
 .link-button {
@@ -66,9 +71,58 @@ h1 {
     box-shadow: 10px 10px 40px salmon;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 .middle-part {
     display: flex;
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     margin-top: 100px;
+}
+
+.menu-section {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: rgb(59, 58, 58);
+}
+
+.menu-item {
+    display: flex;
+    padding: 80px;
+}
+
+.food-box {
+    background-color: white;
+    width: 33%;
+    padding: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(89, 119, 252, 0.5) 0px 14px 28px;
+}
+
+.food-pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.map {
+    filter: grayscale(100%) invert(92%) height: 200px;
+}
+
+.footer {
+    text-align: center;
+    padding: 2% 25%;
+    background-color: rgb(80, 71, 71);
+}
+
+.white {
+    color: white;
 }

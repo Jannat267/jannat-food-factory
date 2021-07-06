@@ -9,25 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon-removebg-preview.png" type="image">
     <title>Jannat Food Factory</title>
 </head>
 
 <body>
     <!-- navigation bar starts from here -->
     <div class="topbar">
-        <a class="nav-element" href="">Home</a>
-        <a class="nav-element" href="">About Us</a>
-        <a class="nav-element" href="">Contact Us</a>
-        <a class="nav-element" href="">Login/Sign Up</a>
+        <a class="nav-element" href="#home">Home</a>
+        <a class="nav-element" href="#price">Pricing</a>
+        <a class="nav-element" href="#contact">Contact Us</a>
+        <a class="nav-element" href="#login">Login/Sign Up</a>
     </div>
     <!-- navigation bar ends -->
     <section class="top-part">
-        <div class="half-width">
-            <h1> <span class="hungry">HUNGRY ?</span> Let's <br>Enjoy Deliciouse Food with Jannat Food Factory </h1>
-            <p class="details">
-                Imagine you don't need a diet because we provide healthy and delicious food for you!
-            </p>
-            <a class="link-button" target="_blank" href="www.facebook.com/jannatfoodfactory">Order Now</a>
+        <div class="half-width" id="top-left">
+            <h1 id="top-heading"> <span class="crimson">HUNGRY ?</span>
+                <span class="text-color">
+                    Let's <br>Enjoy Deliciouse Food with Jannat Food Factory </h1>
+            </span>
+                <p class="text-color">
+                    Imagine you don't need a diet because we provide healthy and delicious food for you!
+                </p>
+                <a class="link-button" target="_blank" href="https://www.facebook.com/groups/740511586773717">Order Now</a>
         </div>
         <div class="half-width">
             <img id="top-img" src="images/Group 8425.png" alt="">
@@ -41,15 +45,66 @@
         </div>
 
         <div class="half-width">
-            <h1>About Us </h1>
-            <p class="details">
+            <h2 class="text-color">About Us </h2>
+            <p class="text-color">
                 We are providing the best quality food and services in Dhaka and Narayanganj City.We don't compromise about food quality and also we are very responsible to our customers, that's why you can trust us.Our delivery service is also very fast.You can enjoy
                 your favourite food from your sweet home.So why late? just order and enjoy. Thank you.....
             </p>
-            <a class="link-button" target="_blank" href="www.facebook.com/jannatfoodfactory">Contact US</a>
+            <a class="link-button" target="_blank" href="https://www.facebook.com/groups/740511586773717">Contact US</a>
         </div>
 
     </section>
+
+    <section class="menu-section" id="services">
+        <div class="center-text">
+            <h2 class="text-color"> Our Menu </h2>
+            <p class="text-color"> You can try any food form our menu. All the food is so delicious to eat. We also reduce the cost of your disered food. We will make a good discount for you. Enjoy with your family and friends.</p>
+        </div>
+        <div class="menu-item">
+
+            <div class="food-box">
+                <img class="food-pic" src="images/indian-food.jpg" alt="Indian-food-image">
+                <div class="food-details text-color">
+                    <h2> Indian Cuisins </h2>
+                    <p>We offer various kind of indian mouth watering foods. To grab this foods you have to order from us or you can found in our restaurant</p>
+                </div>
+            </div>
+            <div class="food-box">
+                <img class="food-pic" src="images/chineese-food.jpg" alt="chineese-food-image">
+                <div class="food-details text-color">
+                    <h2> Chineese Platter </h2>
+                    <p> Who deesn't love chineese food? If you want to taste the amazing chineese foods we should order from us.We are waiting to serve you the best quality food</p>
+                </div>
+            </div>
+            <div class="food-box">
+                <img class="food-pic" src="images/biryani.jpg" alt="pasta-image">
+                <div class="food-details text-color">
+                    <h2> Bangladeshi Foods </h2>
+                    <p>Are you a biriyani lover? Then this is for you.We are offering the most famouse and deliciouse traditional bengali foods.This will beat all of your previous experices of tasting food.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="center-text">
+            <h3 class="text-color"> Find US.</h3>
+            <p> Our Adress :</p>
+            <p> Narayangonj,Dhaka <br> or Call : +88454762357</p>
+        </div>
+        <div id="frame">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d58487.29069411582!2d90.4651421402569!3d23.623847109726785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3755b0fb41e8c247%3A0xa02713a8af496e98!2sNarayanganj%20Sadar%20Upazila%2C%20Bangladesh!3m2!1d23.6237724!2d90.5001616!5e0!3m2!1sen!2sus!4v1625572409166!5m2!1sen!2sus"
+                width="100%" height="560" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <div class="footer">
+        <h4><span class="crimson">Jannat</span> <span class="white">Food Factory </span></h4>
+        <p class="white">Feel the real taste </p>
+        <footer>
+            <p class="white">© Copyright 2021, Jannatul Ferdouse Rupali</p>
+        </footer>
+    </div>
+
 </body>
 
 </html>
